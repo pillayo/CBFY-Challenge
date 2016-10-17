@@ -13,7 +13,9 @@ App that allows a user to estimate a trip with CBFY using their API
 </p>
 
 ### Videos
-<p>
-  <img src="https://github.com/pillayo/CBFY-Challenge/blob/master/Cabify%20Challenge/Images/cbfy-challenge-1.gif" width="480"/>
-  <img src="https://github.com/pillayo/CBFY-Challenge/blob/master/Cabify%20Challenge/Images/cbfy-challenge-2.gif" width="480"/>
+<p align="center">
+  <img src="https://github.com/pillayo/CBFY-Challenge/blob/master/Cabify%20Challenge/Images/cbfy-challenge-1.gif" width="450"/>  
+</p><br/><br/>
+<p align="center">
+<img src="https://github.com/pillayo/CBFY-Challenge/blob/master/Cabify%20Challenge/Images/cbfy-challenge-2.gif" width="450"/>
 </p>
