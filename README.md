@@ -3,7 +3,7 @@
 ## Francisco Cuenca Montilla
 
 ###Info
-App that allows a user to estimate a trip with CBFY using their API
+App that allows a user to estimate a trip with CBFY using their API<br/>
 <b>NOTE<b/>: The project weighs ~ 150 MB by demo videos below
 
 ### ScreenShots
