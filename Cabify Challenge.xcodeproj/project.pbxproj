@@ -15,8 +15,6 @@
 		14167E231DB0E1EF0056CA0B /* Cabify_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E221DB0E1EF0056CA0B /* Cabify_ChallengeTests.m */; };
 		14167E2E1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E2D1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m */; };
 		1425D6991DB0EB63006E2C6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1425D6981DB0EB63006E2C6E /* Security.framework */; };
-		145CDECA1DB500A1008E1CCA /* cbfy-challenge-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 145CDEC91DB500A1008E1CCA /* cbfy-challenge-1.gif */; };
-		145CDECC1DB501A3008E1CCA /* cbfy-challenge-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 145CDECB1DB501A3008E1CCA /* cbfy-challenge-2.gif */; };
 		146CBD5F1DB3D9820046D5B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146CBD611DB3D9820046D5B3 /* Localizable.strings */; };
 		146CBD801DB3E0B10046D5B3 /* VehicleCostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CBD7F1DB3E0B10046D5B3 /* VehicleCostViewCell.m */; };
 		146CBD831DB3E1F30046D5B3 /* VehiclesCostCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CBD821DB3E1F30046D5B3 /* VehiclesCostCollectionView.m */; };
@@ -25,6 +23,11 @@
 		147DDB0E1DB4B1AB000AD295 /* MKMapView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 147DDB0D1DB4B1AB000AD295 /* MKMapView+Utils.m */; };
 		147DDB141DB4D9BD000AD295 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147DDB161DB4D9BD000AD295 /* InfoPlist.strings */; };
 		147DDB191DB4DAA3000AD295 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147DDB181DB4DAA3000AD295 /* Info.plist */; };
+		14AE53521DB50DE800BBA7A8 /* cap1.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AE534D1DB50DE800BBA7A8 /* cap1.png */; };
+		14AE53531DB50DE800BBA7A8 /* cap2.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AE534E1DB50DE800BBA7A8 /* cap2.png */; };
+		14AE53541DB50DE800BBA7A8 /* cap3.png in Resources */ = {isa = PBXBuildFile; fileRef = 14AE534F1DB50DE800BBA7A8 /* cap3.png */; };
+		14AE53551DB50DE800BBA7A8 /* cbfy-challenge-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AE53501DB50DE800BBA7A8 /* cbfy-challenge-1.gif */; };
+		14AE53561DB50DE800BBA7A8 /* cbfy-challenge-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 14AE53511DB50DE800BBA7A8 /* cbfy-challenge-2.gif */; };
 		14BD29551DB21EF700DB7506 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD29541DB21EF700DB7506 /* MVViewController.m */; };
 		14BD29611DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD295A1DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m */; };
 		14BD29621DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD295C1DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m */; };
@@ -74,8 +77,6 @@
 		14167E2D1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cabify_ChallengeUITests.m; sourceTree = "<group>"; };
 		14167E2F1DB0E1EF0056CA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1425D6981DB0EB63006E2C6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		145CDEC91DB500A1008E1CCA /* cbfy-challenge-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cbfy-challenge-1.gif"; sourceTree = "<group>"; };
-		145CDECB1DB501A3008E1CCA /* cbfy-challenge-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cbfy-challenge-2.gif"; sourceTree = "<group>"; };
 		146CBD601DB3D9820046D5B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		146CBD631DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		146CBD641DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -91,6 +92,11 @@
 		147DDB151DB4D9BD000AD295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		147DDB171DB4D9BE000AD295 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		147DDB181DB4DAA3000AD295 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14AE534D1DB50DE800BBA7A8 /* cap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cap1.png; sourceTree = "<group>"; };
+		14AE534E1DB50DE800BBA7A8 /* cap2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cap2.png; sourceTree = "<group>"; };
+		14AE534F1DB50DE800BBA7A8 /* cap3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cap3.png; sourceTree = "<group>"; };
+		14AE53501DB50DE800BBA7A8 /* cbfy-challenge-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cbfy-challenge-1.gif"; sourceTree = "<group>"; };
+		14AE53511DB50DE800BBA7A8 /* cbfy-challenge-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cbfy-challenge-2.gif"; sourceTree = "<group>"; };
 		14BD29531DB21EF700DB7506 /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
 		14BD29541DB21EF700DB7506 /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
 		14BD29581DB2212300DB7506 /* SPGooglePlacesAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocomplete.h; sourceTree = "<group>"; };
@@ -195,9 +201,8 @@
 				14167E161DB0E1EF0056CA0B /* LaunchScreen.storyboard */,
 				147DDB181DB4DAA3000AD295 /* Info.plist */,
 				14167E081DB0E1EF0056CA0B /* Supporting Files */,
+				14AE534C1DB50DB400BBA7A8 /* Images */,
 				14BD296A1DB2227E00DB7506 /* Constants.h */,
-				145CDEC91DB500A1008E1CCA /* cbfy-challenge-1.gif */,
-				145CDECB1DB501A3008E1CCA /* cbfy-challenge-2.gif */,
 				146CBD611DB3D9820046D5B3 /* Localizable.strings */,
 				147DDB161DB4D9BD000AD295 /* InfoPlist.strings */,
 			);
@@ -228,6 +233,18 @@
 				14167E2F1DB0E1EF0056CA0B /* Info.plist */,
 			);
 			path = "Cabify ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		14AE534C1DB50DB400BBA7A8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				14AE534D1DB50DE800BBA7A8 /* cap1.png */,
+				14AE534E1DB50DE800BBA7A8 /* cap2.png */,
+				14AE534F1DB50DE800BBA7A8 /* cap3.png */,
+				14AE53501DB50DE800BBA7A8 /* cbfy-challenge-1.gif */,
+				14AE53511DB50DE800BBA7A8 /* cbfy-challenge-2.gif */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 		14BD29521DB21EF700DB7506 /* Controller */ = {
@@ -451,14 +468,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				147DDB191DB4DAA3000AD295 /* Info.plist in Resources */,
+				14AE53531DB50DE800BBA7A8 /* cap2.png in Resources */,
 				146CBD9F1DB3E98A0046D5B3 /* VehicleCostViewCell.xib in Resources */,
+				14AE53521DB50DE800BBA7A8 /* cap1.png in Resources */,
 				147DDB141DB4D9BD000AD295 /* InfoPlist.strings in Resources */,
-				145CDECC1DB501A3008E1CCA /* cbfy-challenge-2.gif in Resources */,
 				14167E181DB0E1EF0056CA0B /* LaunchScreen.storyboard in Resources */,
-				145CDECA1DB500A1008E1CCA /* cbfy-challenge-1.gif in Resources */,
 				146CBD5F1DB3D9820046D5B3 /* Localizable.strings in Resources */,
 				146CBD851DB3E2460046D5B3 /* VehiclesCostCollectionView.xib in Resources */,
 				14167E151DB0E1EF0056CA0B /* Assets.xcassets in Resources */,
+				14AE53541DB50DE800BBA7A8 /* cap3.png in Resources */,
+				14AE53551DB50DE800BBA7A8 /* cbfy-challenge-1.gif in Resources */,
+				14AE53561DB50DE800BBA7A8 /* cbfy-challenge-2.gif in Resources */,
 				14167E131DB0E1EF0056CA0B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
