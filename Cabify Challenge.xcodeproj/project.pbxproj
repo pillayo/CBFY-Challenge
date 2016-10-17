@@ -15,6 +15,8 @@
 		14167E231DB0E1EF0056CA0B /* Cabify_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E221DB0E1EF0056CA0B /* Cabify_ChallengeTests.m */; };
 		14167E2E1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E2D1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m */; };
 		1425D6991DB0EB63006E2C6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1425D6981DB0EB63006E2C6E /* Security.framework */; };
+		145CDECA1DB500A1008E1CCA /* cbfy-challenge-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 145CDEC91DB500A1008E1CCA /* cbfy-challenge-1.gif */; };
+		145CDECC1DB501A3008E1CCA /* cbfy-challenge-2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 145CDECB1DB501A3008E1CCA /* cbfy-challenge-2.gif */; };
 		146CBD5F1DB3D9820046D5B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146CBD611DB3D9820046D5B3 /* Localizable.strings */; };
 		146CBD801DB3E0B10046D5B3 /* VehicleCostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CBD7F1DB3E0B10046D5B3 /* VehicleCostViewCell.m */; };
 		146CBD831DB3E1F30046D5B3 /* VehiclesCostCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CBD821DB3E1F30046D5B3 /* VehiclesCostCollectionView.m */; };
@@ -72,6 +74,8 @@
 		14167E2D1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cabify_ChallengeUITests.m; sourceTree = "<group>"; };
 		14167E2F1DB0E1EF0056CA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1425D6981DB0EB63006E2C6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		145CDEC91DB500A1008E1CCA /* cbfy-challenge-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cbfy-challenge-1.gif"; sourceTree = "<group>"; };
+		145CDECB1DB501A3008E1CCA /* cbfy-challenge-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "cbfy-challenge-2.gif"; sourceTree = "<group>"; };
 		146CBD601DB3D9820046D5B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		146CBD631DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
 		146CBD641DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 				147DDB181DB4DAA3000AD295 /* Info.plist */,
 				14167E081DB0E1EF0056CA0B /* Supporting Files */,
 				14BD296A1DB2227E00DB7506 /* Constants.h */,
+				145CDEC91DB500A1008E1CCA /* cbfy-challenge-1.gif */,
+				145CDECB1DB501A3008E1CCA /* cbfy-challenge-2.gif */,
 				146CBD611DB3D9820046D5B3 /* Localizable.strings */,
 				147DDB161DB4D9BD000AD295 /* InfoPlist.strings */,
 			);
@@ -447,7 +453,9 @@
 				147DDB191DB4DAA3000AD295 /* Info.plist in Resources */,
 				146CBD9F1DB3E98A0046D5B3 /* VehicleCostViewCell.xib in Resources */,
 				147DDB141DB4D9BD000AD295 /* InfoPlist.strings in Resources */,
+				145CDECC1DB501A3008E1CCA /* cbfy-challenge-2.gif in Resources */,
 				14167E181DB0E1EF0056CA0B /* LaunchScreen.storyboard in Resources */,
+				145CDECA1DB500A1008E1CCA /* cbfy-challenge-1.gif in Resources */,
 				146CBD5F1DB3D9820046D5B3 /* Localizable.strings in Resources */,
 				146CBD851DB3E2460046D5B3 /* VehiclesCostCollectionView.xib in Resources */,
 				14167E151DB0E1EF0056CA0B /* Assets.xcassets in Resources */,
