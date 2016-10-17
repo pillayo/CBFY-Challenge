@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Cabify Challenge
+
+  Created by Francisco Cuenca Montilla on 16/10/16.
+  Copyright © 2016 Francisco Cuenca Montilla. All rights reserved.
+*/
+
+"errorNoGPS" = "It is necessary to enable location in Settings";
+"errorNetwork" = "No Internet, check your connection";
+"errorComunication" = "Failed to get estimate";
+"errorComunicationInfo" = "Cabify may not operate in your city";
+"errorNoAddress" = "We couldn't find the address";
+"searchAddressOrPlace" = "Enter the address to search";

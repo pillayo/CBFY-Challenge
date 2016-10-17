@@ -9,12 +9,35 @@
 /* Begin PBXBuildFile section */
 		14167E0A1DB0E1EF0056CA0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E091DB0E1EF0056CA0B /* main.m */; };
 		14167E0D1DB0E1EF0056CA0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E0C1DB0E1EF0056CA0B /* AppDelegate.m */; };
-		14167E101DB0E1EF0056CA0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E0F1DB0E1EF0056CA0B /* ViewController.m */; };
 		14167E131DB0E1EF0056CA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14167E111DB0E1EF0056CA0B /* Main.storyboard */; };
 		14167E151DB0E1EF0056CA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14167E141DB0E1EF0056CA0B /* Assets.xcassets */; };
 		14167E181DB0E1EF0056CA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14167E161DB0E1EF0056CA0B /* LaunchScreen.storyboard */; };
 		14167E231DB0E1EF0056CA0B /* Cabify_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E221DB0E1EF0056CA0B /* Cabify_ChallengeTests.m */; };
 		14167E2E1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 14167E2D1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m */; };
+		1425D6991DB0EB63006E2C6E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1425D6981DB0EB63006E2C6E /* Security.framework */; };
+		146CBD5F1DB3D9820046D5B3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 146CBD611DB3D9820046D5B3 /* Localizable.strings */; };
+		146CBD801DB3E0B10046D5B3 /* VehicleCostViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CBD7F1DB3E0B10046D5B3 /* VehicleCostViewCell.m */; };
+		146CBD831DB3E1F30046D5B3 /* VehiclesCostCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 146CBD821DB3E1F30046D5B3 /* VehiclesCostCollectionView.m */; };
+		146CBD851DB3E2460046D5B3 /* VehiclesCostCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146CBD841DB3E2460046D5B3 /* VehiclesCostCollectionView.xib */; };
+		146CBD9F1DB3E98A0046D5B3 /* VehicleCostViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146CBD9E1DB3E98A0046D5B3 /* VehicleCostViewCell.xib */; };
+		147DDB0E1DB4B1AB000AD295 /* MKMapView+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 147DDB0D1DB4B1AB000AD295 /* MKMapView+Utils.m */; };
+		147DDB141DB4D9BD000AD295 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 147DDB161DB4D9BD000AD295 /* InfoPlist.strings */; };
+		147DDB191DB4DAA3000AD295 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 147DDB181DB4DAA3000AD295 /* Info.plist */; };
+		14BD29551DB21EF700DB7506 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD29541DB21EF700DB7506 /* MVViewController.m */; };
+		14BD29611DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD295A1DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m */; };
+		14BD29621DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD295C1DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m */; };
+		14BD29631DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD295E1DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.m */; };
+		14BD29641DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD29601DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.m */; };
+		14BD29691DB221FF00DB7506 /* CustomPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD29681DB221FF00DB7506 /* CustomPinAnnotationView.m */; };
+		14BD296C1DB2242300DB7506 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BD296B1DB2242300DB7506 /* MapKit.framework */; };
+		14BD296E1DB2245800DB7506 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BD296D1DB2245800DB7506 /* CoreLocation.framework */; };
+		14BD29701DB225A800DB7506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BD296F1DB225A800DB7506 /* UIKit.framework */; };
+		14C1B30C1DB398FE005B236D /* APICabify.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C1B30B1DB398FE005B236D /* APICabify.m */; };
+		14C1B30F1DB39948005B236D /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C1B30E1DB39948005B236D /* Utils.m */; };
+		14C1B3121DB3A82A005B236D /* VehicleCabify.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C1B3111DB3A82A005B236D /* VehicleCabify.m */; };
+		1B522F7F6AF9F24B92057D73 /* Pods_Cabify_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F9AD59A11A3657C61F2923 /* Pods_Cabify_Challenge.framework */; };
+		66798292B165B8F4880A75A2 /* Pods_Cabify_ChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AE57B5A62CC90E0E6FD6A0 /* Pods_Cabify_ChallengeUITests.framework */; };
+		C13CD460FE0C4F20329F43DF /* Pods_Cabify_ChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF042B2BEC7F735F7E9BAB41 /* Pods_Cabify_ChallengeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +62,64 @@
 		14167E091DB0E1EF0056CA0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14167E0B1DB0E1EF0056CA0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		14167E0C1DB0E1EF0056CA0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		14167E0E1DB0E1EF0056CA0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		14167E0F1DB0E1EF0056CA0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		14167E121DB0E1EF0056CA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14167E141DB0E1EF0056CA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14167E171DB0E1EF0056CA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		14167E191DB0E1EF0056CA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14167E1E1DB0E1EF0056CA0B /* Cabify ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cabify ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14167E221DB0E1EF0056CA0B /* Cabify_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cabify_ChallengeTests.m; sourceTree = "<group>"; };
 		14167E241DB0E1EF0056CA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14167E291DB0E1EF0056CA0B /* Cabify ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cabify ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14167E2D1DB0E1EF0056CA0B /* Cabify_ChallengeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cabify_ChallengeUITests.m; sourceTree = "<group>"; };
 		14167E2F1DB0E1EF0056CA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1425D6981DB0EB63006E2C6E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		146CBD601DB3D9820046D5B3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		146CBD631DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		146CBD641DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		146CBD651DB3D9E20046D5B3 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		146CBD7E1DB3E0B10046D5B3 /* VehicleCostViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCostViewCell.h; sourceTree = "<group>"; };
+		146CBD7F1DB3E0B10046D5B3 /* VehicleCostViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleCostViewCell.m; sourceTree = "<group>"; };
+		146CBD811DB3E1F30046D5B3 /* VehiclesCostCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehiclesCostCollectionView.h; sourceTree = "<group>"; };
+		146CBD821DB3E1F30046D5B3 /* VehiclesCostCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehiclesCostCollectionView.m; sourceTree = "<group>"; };
+		146CBD841DB3E2460046D5B3 /* VehiclesCostCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehiclesCostCollectionView.xib; sourceTree = "<group>"; };
+		146CBD9E1DB3E98A0046D5B3 /* VehicleCostViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleCostViewCell.xib; sourceTree = "<group>"; };
+		147DDB0C1DB4B1AB000AD295 /* MKMapView+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+Utils.h"; sourceTree = "<group>"; };
+		147DDB0D1DB4B1AB000AD295 /* MKMapView+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+Utils.m"; sourceTree = "<group>"; };
+		147DDB151DB4D9BD000AD295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147DDB171DB4D9BE000AD295 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		147DDB181DB4DAA3000AD295 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BD29531DB21EF700DB7506 /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
+		14BD29541DB21EF700DB7506 /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
+		14BD29581DB2212300DB7506 /* SPGooglePlacesAutocomplete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocomplete.h; sourceTree = "<group>"; };
+		14BD29591DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompletePlace.h; sourceTree = "<group>"; };
+		14BD295A1DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompletePlace.m; sourceTree = "<group>"; };
+		14BD295B1DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteQuery.h; sourceTree = "<group>"; };
+		14BD295C1DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteQuery.m; sourceTree = "<group>"; };
+		14BD295D1DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesAutocompleteUtilities.h; sourceTree = "<group>"; };
+		14BD295E1DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesAutocompleteUtilities.m; sourceTree = "<group>"; };
+		14BD295F1DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPGooglePlacesPlaceDetailQuery.h; sourceTree = "<group>"; };
+		14BD29601DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPGooglePlacesPlaceDetailQuery.m; sourceTree = "<group>"; };
+		14BD29671DB221FF00DB7506 /* CustomPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPinAnnotationView.h; sourceTree = "<group>"; };
+		14BD29681DB221FF00DB7506 /* CustomPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPinAnnotationView.m; sourceTree = "<group>"; };
+		14BD296A1DB2227E00DB7506 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		14BD296B1DB2242300DB7506 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14BD296D1DB2245800DB7506 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14BD296F1DB225A800DB7506 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14BD29751DB2BB9700DB7506 /* Cabify Challenge.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cabify Challenge.entitlements"; sourceTree = "<group>"; };
+		14C1B30A1DB398FE005B236D /* APICabify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APICabify.h; sourceTree = "<group>"; };
+		14C1B30B1DB398FE005B236D /* APICabify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APICabify.m; sourceTree = "<group>"; };
+		14C1B30D1DB39948005B236D /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		14C1B30E1DB39948005B236D /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		14C1B3101DB3A82A005B236D /* VehicleCabify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCabify.h; sourceTree = "<group>"; };
+		14C1B3111DB3A82A005B236D /* VehicleCabify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleCabify.m; sourceTree = "<group>"; };
+		546A1882EE85420D39166214 /* Pods-Cabify Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabify Challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cabify Challenge/Pods-Cabify Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		636ABE0471EDD7702498C7EA /* Pods-Cabify ChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabify ChallengeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cabify ChallengeUITests/Pods-Cabify ChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		84558A772AD7A929C5F3D31D /* Pods-Cabify ChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabify ChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cabify ChallengeUITests/Pods-Cabify ChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94AE57B5A62CC90E0E6FD6A0 /* Pods_Cabify_ChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabify_ChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3FAA025BD7839F58D23A62 /* Pods-Cabify Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabify Challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cabify Challenge/Pods-Cabify Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		B844E4FE20C3F3BC07546072 /* Pods-Cabify ChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabify ChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cabify ChallengeTests/Pods-Cabify ChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF042B2BEC7F735F7E9BAB41 /* Pods_Cabify_ChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabify_ChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AD5BC187230A35795F5E92 /* Pods-Cabify ChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabify ChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cabify ChallengeTests/Pods-Cabify ChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		F0F9AD59A11A3657C61F2923 /* Pods_Cabify_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabify_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +127,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14BD29701DB225A800DB7506 /* UIKit.framework in Frameworks */,
+				14BD296E1DB2245800DB7506 /* CoreLocation.framework in Frameworks */,
+				14BD296C1DB2242300DB7506 /* MapKit.framework in Frameworks */,
+				1425D6991DB0EB63006E2C6E /* Security.framework in Frameworks */,
+				1B522F7F6AF9F24B92057D73 /* Pods_Cabify_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C13CD460FE0C4F20329F43DF /* Pods_Cabify_ChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66798292B165B8F4880A75A2 /* Pods_Cabify_ChallengeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +161,8 @@
 				14167E211DB0E1EF0056CA0B /* Cabify ChallengeTests */,
 				14167E2C1DB0E1EF0056CA0B /* Cabify ChallengeUITests */,
 				14167E061DB0E1EF0056CA0B /* Products */,
+				F51FB826902D5CB7AFF28AC5 /* Pods */,
+				5B97AECF4D94F2EA857115EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +179,21 @@
 		14167E071DB0E1EF0056CA0B /* Cabify Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				14BD29751DB2BB9700DB7506 /* Cabify Challenge.entitlements */,
+				14C1B3091DB398D4005B236D /* Model */,
+				14BD29651DB221FF00DB7506 /* View */,
+				14BD29561DB2212300DB7506 /* Utils */,
+				14BD29521DB21EF700DB7506 /* Controller */,
 				14167E0B1DB0E1EF0056CA0B /* AppDelegate.h */,
 				14167E0C1DB0E1EF0056CA0B /* AppDelegate.m */,
-				14167E0E1DB0E1EF0056CA0B /* ViewController.h */,
-				14167E0F1DB0E1EF0056CA0B /* ViewController.m */,
 				14167E111DB0E1EF0056CA0B /* Main.storyboard */,
 				14167E141DB0E1EF0056CA0B /* Assets.xcassets */,
 				14167E161DB0E1EF0056CA0B /* LaunchScreen.storyboard */,
-				14167E191DB0E1EF0056CA0B /* Info.plist */,
+				147DDB181DB4DAA3000AD295 /* Info.plist */,
 				14167E081DB0E1EF0056CA0B /* Supporting Files */,
+				14BD296A1DB2227E00DB7506 /* Constants.h */,
+				146CBD611DB3D9820046D5B3 /* Localizable.strings */,
+				147DDB161DB4D9BD000AD295 /* InfoPlist.strings */,
 			);
 			path = "Cabify Challenge";
 			sourceTree = "<group>";
@@ -140,6 +224,104 @@
 			path = "Cabify ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		14BD29521DB21EF700DB7506 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				14BD29531DB21EF700DB7506 /* MVViewController.h */,
+				14BD29541DB21EF700DB7506 /* MVViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		14BD29561DB2212300DB7506 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				14BD29571DB2212300DB7506 /* SPGooglePlacesAutocomplete */,
+				14C1B30D1DB39948005B236D /* Utils.h */,
+				14C1B30E1DB39948005B236D /* Utils.m */,
+				147DDB0C1DB4B1AB000AD295 /* MKMapView+Utils.h */,
+				147DDB0D1DB4B1AB000AD295 /* MKMapView+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		14BD29571DB2212300DB7506 /* SPGooglePlacesAutocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				14BD29581DB2212300DB7506 /* SPGooglePlacesAutocomplete.h */,
+				14BD29591DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.h */,
+				14BD295A1DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m */,
+				14BD295B1DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.h */,
+				14BD295C1DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m */,
+				14BD295D1DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.h */,
+				14BD295E1DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.m */,
+				14BD295F1DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.h */,
+				14BD29601DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.m */,
+			);
+			path = SPGooglePlacesAutocomplete;
+			sourceTree = "<group>";
+		};
+		14BD29651DB221FF00DB7506 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14BD29661DB221FF00DB7506 /* UI */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14BD29661DB221FF00DB7506 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				14BD29671DB221FF00DB7506 /* CustomPinAnnotationView.h */,
+				14BD29681DB221FF00DB7506 /* CustomPinAnnotationView.m */,
+				146CBD7E1DB3E0B10046D5B3 /* VehicleCostViewCell.h */,
+				146CBD7F1DB3E0B10046D5B3 /* VehicleCostViewCell.m */,
+				146CBD9E1DB3E98A0046D5B3 /* VehicleCostViewCell.xib */,
+				146CBD811DB3E1F30046D5B3 /* VehiclesCostCollectionView.h */,
+				146CBD821DB3E1F30046D5B3 /* VehiclesCostCollectionView.m */,
+				146CBD841DB3E2460046D5B3 /* VehiclesCostCollectionView.xib */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		14C1B3091DB398D4005B236D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14C1B30A1DB398FE005B236D /* APICabify.h */,
+				14C1B30B1DB398FE005B236D /* APICabify.m */,
+				14C1B3101DB3A82A005B236D /* VehicleCabify.h */,
+				14C1B3111DB3A82A005B236D /* VehicleCabify.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B97AECF4D94F2EA857115EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14BD296F1DB225A800DB7506 /* UIKit.framework */,
+				14BD296D1DB2245800DB7506 /* CoreLocation.framework */,
+				14BD296B1DB2242300DB7506 /* MapKit.framework */,
+				1425D6981DB0EB63006E2C6E /* Security.framework */,
+				F0F9AD59A11A3657C61F2923 /* Pods_Cabify_Challenge.framework */,
+				CF042B2BEC7F735F7E9BAB41 /* Pods_Cabify_ChallengeTests.framework */,
+				94AE57B5A62CC90E0E6FD6A0 /* Pods_Cabify_ChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F51FB826902D5CB7AFF28AC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				546A1882EE85420D39166214 /* Pods-Cabify Challenge.debug.xcconfig */,
+				AB3FAA025BD7839F58D23A62 /* Pods-Cabify Challenge.release.xcconfig */,
+				B844E4FE20C3F3BC07546072 /* Pods-Cabify ChallengeTests.debug.xcconfig */,
+				E9AD5BC187230A35795F5E92 /* Pods-Cabify ChallengeTests.release.xcconfig */,
+				84558A772AD7A929C5F3D31D /* Pods-Cabify ChallengeUITests.debug.xcconfig */,
+				636ABE0471EDD7702498C7EA /* Pods-Cabify ChallengeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +329,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14167E321DB0E1EF0056CA0B /* Build configuration list for PBXNativeTarget "Cabify Challenge" */;
 			buildPhases = (
+				8BA4AFB4681A454399DB7B5F /* [CP] Check Pods Manifest.lock */,
 				14167E011DB0E1EF0056CA0B /* Sources */,
 				14167E021DB0E1EF0056CA0B /* Frameworks */,
 				14167E031DB0E1EF0056CA0B /* Resources */,
+				F064AA57AF7683A514DF27E6 /* [CP] Embed Pods Frameworks */,
+				7DFDD2F851F7275C581E1691 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +349,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14167E351DB0E1EF0056CA0B /* Build configuration list for PBXNativeTarget "Cabify ChallengeTests" */;
 			buildPhases = (
+				DAC0A357A3F918321F459E95 /* [CP] Check Pods Manifest.lock */,
 				14167E1A1DB0E1EF0056CA0B /* Sources */,
 				14167E1B1DB0E1EF0056CA0B /* Frameworks */,
 				14167E1C1DB0E1EF0056CA0B /* Resources */,
+				86FFA47A8FE55527C90A0741 /* [CP] Embed Pods Frameworks */,
+				ECF6522940AF6FA427F57825 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +370,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14167E381DB0E1EF0056CA0B /* Build configuration list for PBXNativeTarget "Cabify ChallengeUITests" */;
 			buildPhases = (
+				9AB14B0A3DBA6E2D6BC31B40 /* [CP] Check Pods Manifest.lock */,
 				14167E251DB0E1EF0056CA0B /* Sources */,
 				14167E261DB0E1EF0056CA0B /* Frameworks */,
 				14167E271DB0E1EF0056CA0B /* Resources */,
+				417969058DC556ADC06FCA98 /* [CP] Embed Pods Frameworks */,
+				F281F99067593F289FC51E19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,11 +393,20 @@
 		14167DFD1DB0E1EF0056CA0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Francisco Cuenca Montilla";
 				TargetAttributes = {
 					14167E041DB0E1EF0056CA0B = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = S578P2RV38;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+						};
 					};
 					14167E1D1DB0E1EF0056CA0B = {
 						CreatedOnToolsVersion = 7.1;
@@ -225,6 +425,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = 14167DFC1DB0E1EF0056CA0B;
 			productRefGroup = 14167E061DB0E1EF0056CA0B /* Products */;
@@ -243,7 +444,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				147DDB191DB4DAA3000AD295 /* Info.plist in Resources */,
+				146CBD9F1DB3E98A0046D5B3 /* VehicleCostViewCell.xib in Resources */,
+				147DDB141DB4D9BD000AD295 /* InfoPlist.strings in Resources */,
 				14167E181DB0E1EF0056CA0B /* LaunchScreen.storyboard in Resources */,
+				146CBD5F1DB3D9820046D5B3 /* Localizable.strings in Resources */,
+				146CBD851DB3E2460046D5B3 /* VehiclesCostCollectionView.xib in Resources */,
 				14167E151DB0E1EF0056CA0B /* Assets.xcassets in Resources */,
 				14167E131DB0E1EF0056CA0B /* Main.storyboard in Resources */,
 			);
@@ -265,14 +471,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		417969058DC556ADC06FCA98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabify ChallengeUITests/Pods-Cabify ChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DFDD2F851F7275C581E1691 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabify Challenge/Pods-Cabify Challenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86FFA47A8FE55527C90A0741 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabify ChallengeTests/Pods-Cabify ChallengeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA4AFB4681A454399DB7B5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB14B0A3DBA6E2D6BC31B40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC0A357A3F918321F459E95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF6522940AF6FA427F57825 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabify ChallengeTests/Pods-Cabify ChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F064AA57AF7683A514DF27E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabify Challenge/Pods-Cabify Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F281F99067593F289FC51E19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cabify ChallengeUITests/Pods-Cabify ChallengeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14167E011DB0E1EF0056CA0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14167E101DB0E1EF0056CA0B /* ViewController.m in Sources */,
+				146CBD801DB3E0B10046D5B3 /* VehicleCostViewCell.m in Sources */,
+				147DDB0E1DB4B1AB000AD295 /* MKMapView+Utils.m in Sources */,
 				14167E0D1DB0E1EF0056CA0B /* AppDelegate.m in Sources */,
+				14BD29621DB2212300DB7506 /* SPGooglePlacesAutocompleteQuery.m in Sources */,
+				14BD29641DB2212300DB7506 /* SPGooglePlacesPlaceDetailQuery.m in Sources */,
+				14C1B3121DB3A82A005B236D /* VehicleCabify.m in Sources */,
+				14C1B30F1DB39948005B236D /* Utils.m in Sources */,
+				14BD29631DB2212300DB7506 /* SPGooglePlacesAutocompleteUtilities.m in Sources */,
+				14BD29691DB221FF00DB7506 /* CustomPinAnnotationView.m in Sources */,
+				14BD29611DB2212300DB7506 /* SPGooglePlacesAutocompletePlace.m in Sources */,
+				14BD29551DB21EF700DB7506 /* MVViewController.m in Sources */,
 				14167E0A1DB0E1EF0056CA0B /* main.m in Sources */,
+				14C1B30C1DB398FE005B236D /* APICabify.m in Sources */,
+				146CBD831DB3E1F30046D5B3 /* VehiclesCostCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +667,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				14167E121DB0E1EF0056CA0B /* Base */,
+				146CBD631DB3D9E20046D5B3 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -320,8 +676,27 @@
 			isa = PBXVariantGroup;
 			children = (
 				14167E171DB0E1EF0056CA0B /* Base */,
+				146CBD641DB3D9E20046D5B3 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		146CBD611DB3D9820046D5B3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146CBD601DB3D9820046D5B3 /* en */,
+				146CBD651DB3D9E20046D5B3 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		147DDB161DB4D9BD000AD295 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				147DDB151DB4D9BD000AD295 /* en */,
+				147DDB171DB4D9BE000AD295 /* es */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -331,6 +706,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -340,8 +716,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -375,6 +753,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -384,8 +763,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -411,9 +792,13 @@
 		};
 		14167E331DB0E1EF0056CA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546A1882EE85420D39166214 /* Pods-Cabify Challenge.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S578P2RV38;
 				INFOPLIST_FILE = "Cabify Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cabify.Cabify-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,9 +807,13 @@
 		};
 		14167E341DB0E1EF0056CA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB3FAA025BD7839F58D23A62 /* Pods-Cabify Challenge.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S578P2RV38;
 				INFOPLIST_FILE = "Cabify Challenge/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cabify.Cabify-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +822,7 @@
 		};
 		14167E361DB0E1EF0056CA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B844E4FE20C3F3BC07546072 /* Pods-Cabify ChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cabify ChallengeTests/Info.plist";
@@ -445,6 +835,7 @@
 		};
 		14167E371DB0E1EF0056CA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AD5BC187230A35795F5E92 /* Pods-Cabify ChallengeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Cabify ChallengeTests/Info.plist";
@@ -457,6 +848,7 @@
 		};
 		14167E391DB0E1EF0056CA0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84558A772AD7A929C5F3D31D /* Pods-Cabify ChallengeUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cabify ChallengeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -469,6 +861,7 @@
 		};
 		14167E3A1DB0E1EF0056CA0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 636ABE0471EDD7702498C7EA /* Pods-Cabify ChallengeUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Cabify ChallengeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +891,7 @@
 				14167E341DB0E1EF0056CA0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14167E351DB0E1EF0056CA0B /* Build configuration list for PBXNativeTarget "Cabify ChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +900,7 @@
 				14167E371DB0E1EF0056CA0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		14167E381DB0E1EF0056CA0B /* Build configuration list for PBXNativeTarget "Cabify ChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +909,7 @@
 				14167E3A1DB0E1EF0056CA0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

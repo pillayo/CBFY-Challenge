@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "A"; ObjectID = "4d6-FT-FF9"; */
+"4d6-FT-FF9.text" = "A";
+
+/* Class = "UILabel"; text = "B"; ObjectID = "Pib-GQ-Zbc"; */
+"Pib-GQ-Zbc.text" = "B";
+
+/* Class = "UIButton"; normalTitle = "Pulsa para elegir donde te  recogen"; ObjectID = "hfJ-RO-7c6"; */
+"hfJ-RO-7c6.normalTitle" = "Pulsa para elegir donde te recogen";
+
+/* Class = "UIButton"; normalTitle = "Obtener vehiculos y precio"; ObjectID = "nOs-8Y-J4T"; */
+"nOs-8Y-J4T.normalTitle" = "Obtener vehiculos y precio";
+
+/* Class = "UIButton"; normalTitle = "Pulsa para elegir un destino"; ObjectID = "qnP-Pk-0gf"; */
+"qnP-Pk-0gf.normalTitle" = "Pulsa para elegir un destino";

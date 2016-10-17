@@ -1,0 +1,8 @@
+/* 
+  InfoPlist.strings
+  Cabify Challenge
+
+  Created by Francisco Cuenca Montilla on 17/10/16.
+  Copyright © 2016 Francisco Cuenca Montilla. All rights reserved.
+*/
+"NSLocationWhenInUseUsageDescription" =  "Se requiere de ubicación para mejorar la experiencia al usar la app";
