@@ -412,11 +412,19 @@ typedef enum {
 
 // Si la acción es a través de pulsar sobre el botón de ubicación, buscamos la dirección y lo asignamos a la selección del punto actual
 - (IBAction)centerMapToUserLocation:(id)sender {
-    if (_mapView.userLocation != nil && _mapView.userLocation.coordinate.longitude != 0.0){
-        [_mapView centerMapToCoordinate:_mapView.userLocation.coordinate];
-        if (sender != nil){
-            [self coordinateLocationApi:_mapView.userLocation.coordinate andRecenter:NO];
+    if ([CLLocationManager locationServicesEnabled]){
+        if ([CLLocationManager authorizationStatus]==kCLAuthorizationStatusDenied){
+            [Utils showMessageErrorWithTitle:NSLocalizedString(@"errorNoGPS", nil) andMessage:nil];
+        } else {
+            if (_mapView.userLocation != nil && _mapView.userLocation.coordinate.longitude != 0.0){
+                [_mapView centerMapToCoordinate:_mapView.userLocation.coordinate];
+                if (sender != nil){
+                    [self coordinateLocationApi:_mapView.userLocation.coordinate andRecenter:NO];
+                }
+            }
         }
+    } else {
+        [Utils showMessageErrorWithTitle:NSLocalizedString(@"errorNoGPS", nil) andMessage:nil];
     }
 }
 
